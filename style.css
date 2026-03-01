@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f8;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #111;
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg,#007bff,#00c6ff);
+    color: white;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+section {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
